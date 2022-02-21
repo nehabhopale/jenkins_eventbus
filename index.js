@@ -23,5 +23,5 @@ app.post('/eventbus/event',(req,resp)=>{
 });
 
 app.listen(4005,()=>{
-    console.log("u r listening  on event bus ")
+    console.log("listening on event bus ")
 })
